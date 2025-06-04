@@ -24,16 +24,16 @@ class CountedSet {
         return this.items.get(item) ?? 0;
     }
 }
-// let countedSet = new CountedSet<string>();
-// countedSet.add('test');
-// countedSet.add('test');
-// console.log(countedSet.contains('test'));
-// console.log(countedSet.getNumberOfCopies('test'));
-// countedSet.remove('test')
-// countedSet.remove('test')
-// countedSet.remove('test')
-// console.log(countedSet.getNumberOfCopies('test'));
-// console.log(countedSet.contains('test'));
+let countedSet = new CountedSet();
+countedSet.add('test');
+countedSet.add('test');
+console.log(countedSet.contains('test'));
+console.log(countedSet.getNumberOfCopies('test'));
+countedSet.remove('test');
+countedSet.remove('test');
+countedSet.remove('test');
+console.log(countedSet.getNumberOfCopies('test'));
+console.log(countedSet.contains('test'));
 let codesCounterSet = new CountedSet();
 codesCounterSet.add(404);
 codesCounterSet.add(200);
